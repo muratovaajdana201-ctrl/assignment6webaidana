@@ -69,7 +69,7 @@ The animated skill bars and the dark theme of the website.
 
 ## Project Links
 
--Live Website: 
+-Live Website:  https://muratovaajdana201-ctrl.github.io/assignment6webaidana/
 
 ## What I Learned
 
