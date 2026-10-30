@@ -79,4 +79,10 @@ I liked that I could use these methods in my own portfolio and make the website 
 
 ## Conclusion
 
-This assignment helped me practise the main jQuery methods and apply them in a real website. I am happy with the result because I was able to create a portfolio that includes both my personal information and the required interactive features.
+Overall, I enjoyed working on this assignment because I could create something personal and practise jQuery at the same time. At the beginning, some methods were a little confusing for me, but while working on the website, I started to understand how they work and how to use them.
+
+I learned how to select HTML elements, change their styles and text, show and hide content, add and remove elements, and create different effects and animations. I also practised working with input fields and updating information without refreshing the page.
+
+I tried to make my portfolio not only useful for the assignment but also personal, so I added my hobbies, interests, skills and a little information about myself. I think this project helped me become more confident with jQuery and gave me a better understanding of how interactive websites are created.
+
+I am happy with the final result, and I hope to use what I learned in my future web development projects.
