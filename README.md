@@ -1,64 +1,82 @@
-# Assignment 6 — My Personal Portfolio with jQuery
+# Assignment 6 – My Personal Portfolio
 
 ## About the Project
 
-For this assignment, I created a personal portfolio website using HTML, CSS and jQuery. I wanted to make a page that introduces me, shows my interests and skills, and lets visitors interact with different parts of the website.
+For this assignment, I created a personal portfolio website using HTML, CSS and jQuery. The website is about me, my hobbies, interests and skills.
 
-The design uses warm colours and a simple layout. The website also has buttons, animations and small interactive features that I practised while learning jQuery.
-
-## What I Included
-
-- **About Me:** A short introduction about my studies, goals and interests.
-- **Gallery:** Images related to my interests, with fade effects.
-- **My Favorites:** Expandable sections about my favourite music, movies and subjects.
-- **Skills:** A list of technical skills that can be added to, inserted at the beginning, or removed.
-- **Social Link:** A button that changes the link destination.
-- **Contact Form:** A live preview that updates when a visitor types their name and email.
-- **Skill Animation:** Animated bars that show different skill levels.
-- **Light and Dark Themes:** Buttons to switch the website's appearance.
-
-## What I Practised
-
-While working on this project, I practised using jQuery selectors and event handlers, changing text and CSS, showing and hiding elements, creating fade and slide effects, modifying HTML elements, working with attributes and input values, and animating elements.
-
-These features helped me understand how jQuery can make a website more interactive.
+I wanted to make a simple and nice-looking website where I could also practise the jQuery methods from our assignment. I added interactive buttons, visual effects, a live form preview and skill animations.
 
 ## Technologies Used
 
-- HTML5
-- CSS3
-- JavaScript
-- jQuery 3.7.1
+-HTML5
+-CSS3
+-JavaScript
+-jQuery 3.7.1
+
+## Features
+
+In my project, I used different jQuery methods and added the following features:
+
+-Selectors and CSS: changed text and styles using jQuery selectors and .css().
+-Hide, Show and Toggle: added buttons to hide and show personal information.
+-Fade Effects: used .fadeIn(), .fadeOut() and .fadeToggle() for the gallery.
+-Slide Effects: created an accordion with expandable sections using slide animations.
+-DOM Manipulation: added new skills to the list and removed existing ones.
+-Attributes: used .attr() to change my social media link.
+-Live Form Preview: the name and email appear automatically while typing.
+-Animation: added animated skill bars using .animate().
+-Themes: added light and dark theme buttons.
 
 ## Screenshots
 
-The screenshots below show the website design and some of its interactive features.
+Here are some screenshots of my website and its main features.
 
-### 1. Main Page
-Shows the navigation, introduction and overall design.
+### 1. Homepage
+
+The main page with navigation, my introduction, profile section and theme buttons.
+
+![Homepage](screenshots/01-homepage.png)
 
 ### 2. About Me and Gallery
-Shows the information about me and the gallery section.
+
+This section contains some information about me, my hobbies and the gallery.
+
+![About and Gallery](screenshots/02-about-gallery.png)
 
 ### 3. Favorites
-Shows the expandable sections with my favourite music, movies and subjects.
 
-### 4. Skills Section
-Shows the skills list and the buttons for adding, inserting and removing skills.
+My favorite music, movies and subjects. The accordion sections can be opened and closed.
+
+![Favorites](screenshots/03-favorites.png)
+
+### 4. Skills
+
+My skills list with buttons to add a skill, add it at the beginning or remove the last item.
+
+![Skills](screenshots/04-skills.png)
 
 ### 5. Contact Form
-Shows the form and the live preview of the entered information.
 
-### 6. Animation and Themes
-Shows the animated skill bars and the light or dark theme.
+A simple form with a live preview. The information changes while typing.
 
-## Links
+![Contact Form](screenshots/05-contact-form.png)
 
-- **GitHub Repository:** [Add your repository link here]
-- **Live Website:** [Add your GitHub Pages link here]
+### 6. Animation and Theme
+
+The animated skill bars and the dark theme of the website.
+
+![Animation and Theme](screenshots/06-animation-theme.png)
+
+## Project Links
+
+-Live Website: 
+
+## What I Learned
+
+While working on this project, I got more practice with jQuery and learned how to make website elements interactive. I also understood better how to work with selectors, events, effects and animations.
+
+I liked that I could use these methods in my own portfolio and make the website more personal.
 
 ## Conclusion
 
-This assignment gave me practice with jQuery and helped me understand how to add interactive features to a website. I also had the opportunity to organise my HTML, style the page with CSS and make the portfolio more personal.
-
-Overall, I enjoyed building the project and seeing how small interactions can make a website feel more dynamic.
+This assignment helped me practise the main jQuery methods and apply them in a real website. I am happy with the result because I was able to create a portfolio that includes both my personal information and the required interactive features.
