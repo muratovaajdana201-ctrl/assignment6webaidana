@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Task 0 -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+
+<header>
+    <nav class="container">
+        <h3>MY PORTFOLIO</h3>
+
+        <div class="nav-links">
+            <a href="#about">About</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#favorites">Favorites</a>
+            <a href="#skills">Skills</a>
+        </div>
+
+        <button id="lightThemeBtn">Light theme</button>
+        <button id="darkThemeBtn">Dark theme</button>
+    </nav>
+</header>
+
+<main class="container">
+
+    <!-- Task 1-->
+    <section class="hero">
+
+        <div class="card">
+            <p class="eyebrow">WEB TECHNOLOGIES · ASSIGNMENT 6</p>
+
+            <h1 id="greeting">About Me</h1>
+
+            <h2>AITU Software Programming Student</h2>
+
+            <p class="intro">
+                I study Software Programming at AITU.
+                I enjoy astronomy, zodiac signs, tarot readings
+                and learning about healthy foods.
+            </p>
+
+            <div class="goal-note">
+                <h3>My Goal</h3>
+                <p>Become an IT manager</p>
+            </div>
+
+            <button id="updateGreeting">Update greeting</button>
+        </div>
+
+       
+        <div class="card">
+            <div class="avatar">
+               <img src="images/my-photo.jpg" alt="My photo">
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Task 2 -->
+    <section id="about">
+        <div class="card">
+
+            <h2>More About Me</h2>
+
+            <p>
+                My hobbies are playing the piano, cycling and board games.
+                I am curious about astronomy and healthy living.
+            </p>
+
+            <div id="statusAndFacts">
+
+                <p class="status" id="currentStatus">
+                    Currently learning jQuery!
+                </p>
+
+                <div class="grid">
+
+                    <div class="fact">
+                        <h3>My Education</h3>
+                        <p>AITU Software Programming</p>
+                    </div>
+
+                    <div class="fact">
+                        <h3>My Hobbies</h3>
+                        <p>Piano, cycling, board games</p>
+                    </div>
+
+                    <div class="fact">
+                        <h3>My Interests</h3>
+                        <p>Astronomy, tarot, zodiac signs</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <button id="hideStatus">Hide</button>
+            <button id="showStatus">Show</button>
+            <button id="toggleStatus">Toggle</button>
+
+        </div>
+    </section>
+
+
+    <!-- Task 3 -->
+    <section id="gallery">
+        <div class="card">
+
+            <h2>Things I Like</h2>
+
+            <div class="grid" id="galleryImages">
+
+                <div class="fact gallery-image">
+
+                    <div class="picture">
+                        <img src="images/space.jpg"
+                             alt="Space and the universe">
+                    </div>
+
+                    <h3>Astronomy</h3>
+
+                    <p>
+                        I'm fascinated by space, stars, and planets.
+                        I love learning about the universe and discovering
+                        how much there is beyond our world.
+                    </p>
+
+                    <div class="picture">
+                        <img src="images/piano.jpg"
+                             alt="Piano">
+                    </div>
+
+                    <h3>Playing the Piano</h3>
+
+                    <p>
+                        I enjoy playing the piano because music helps me
+                        relax and express my feelings. I love learning
+                        new melodies and creating beautiful sounds.
+                    </p>
+
+                </div>
+
+            </div>
+
+            <button id="fadeIn">Fade In</button>
+            <button id="fadeOut">Fade Out</button>
+            <button id="fadeToggle">Fade Toggle</button>
+
+        </div>
+    </section>
+
+
+    <!-- Task 4-->
+    <section id="favorites">
+        <div class="card">
+
+            <h2>My Favorites</h2>
+
+            <div class="accordion">
+
+                <h3 class="accordion-title" data-panel="#musicPanel">
+                    Favorite Singer +
+                </h3>
+
+                <div class="accordion-content" id="musicPanel">
+                    M'Dee, Sara Amangeldi and Bruno Mars.
+                </div>
+
+            </div>
+
+            <div class="accordion">
+
+                <h3 class="accordion-title" data-panel="#moviePanel">
+                    Favorite Movies and Dorama +
+                </h3>
+
+                <div class="accordion-content" id="moviePanel">
+                    Crash Landing on You, The Hunger Games,
+                    and Can this LOVE be TRANSLATED?
+                </div>
+
+            </div>
+
+            <div class="accordion">
+
+                <h3 class="accordion-title" data-panel="#subjectPanel">
+                    Favorite Subjects +
+                </h3>
+
+                <div class="accordion-content" id="subjectPanel">
+                    Web Technology, History and Psychology.
+                </div>
+
+            </div>
+
+            <button id="toggleAllPanels">Toggle All Panels</button>
+
+        </div>
+    </section>
+
+
+    <!-- Task 5 -->
+    <section id="skills">
+        <div class="card">
+
+            <h2>My Technical Skills</h2>
+
+            <ul id="skillList">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>jQuery</li>
+            </ul>
+
+            <input id="newSkill"
+                   type="text"
+                   placeholder="Enter a skill">
+
+            <button id="addSkill">Append Skill</button>
+            <button id="prependSkill">Prepend Skill</button>
+            <button id="removeSkill">Remove Last Skill</button>
+
+            <p id="skillMessage"></p>
+
+        </div>
+    </section>
+
+
+    <!-- Task 6 -->
+    <section id="social">
+        <div class="card">
+
+            <h2>Find Me Online</h2>
+
+            <a id="socialLink"
+               href="https://www.instagram.com/aiidkonn/"
+               target="_blank"
+               rel="noopener noreferrer">
+                Instagram · @aiidkonn
+            </a>
+
+            <p>
+                <button id="changeLink">Change to LinkedIn</button>
+                <button id="resetLink">Reset Instagram</button>
+            </p>
+
+            <p id="linkMessage"></p>
+
+        </div>
+    </section>
+
+
+    <!-- Task 7 -->
+    <section id="contact">
+        <div class="card">
+
+            <h2>Live Form Preview</h2>
+
+            <label for="visitorName">Name</label>
+            <input id="visitorName"
+                   type="text"
+                   placeholder="Your name">
+
+            <label for="visitorEmail">Email</label>
+            <input id="visitorEmail"
+                   type="email"
+                   placeholder="Your email">
+
+            <div class="preview">
+                <p>Name: <span id="nameOutput">—</span></p>
+                <p>Email: <span id="emailOutput">—</span></p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Task 8-->
+    <section id="animation">
+        <div class="card">
+
+            <h2>Skill Animation</h2>
+
+            <p>HTML & CSS — 90%</p>
+            <div class="bar">
+                <div class="bar-fill" data-width="90"></div>
+            </div>
+
+            <p>JavaScript — 70%</p>
+            <div class="bar">
+                <div class="bar-fill" data-width="70"></div>
+            </div>
+
+            <p>jQuery — 60%</p>
+            <div class="bar">
+                <div class="bar-fill" data-width="60"></div>
+            </div>
+
+            <button id="animateSkills">Animate Skills</button>
+
+            <p id="animationMessage"></p>
+
+        </div>
+    </section>
+
+</main>
+
+
+<footer>
+    <p>About Me · AITU · Assignment 6</p>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
