@@ -1,6 +1,8 @@
 # Assignment 6 – My Personal Portfolio
 NAME:AIDANA MURATOVA SE-2539
+
 LINK: muratovaajdana201-ctrl/assignment6webaidana
+
 WEB LINK: https://muratovaajdana201-ctrl.github.io/assignment6webaidana/
 
 ## About the Project
