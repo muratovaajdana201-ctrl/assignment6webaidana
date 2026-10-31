@@ -2,7 +2,7 @@
 $(document).ready(function () {
     console.log("jQuery is ready!");
 
-    // Task 1: Selectors, text, CSS and themes
+    // Task 1
     $("h1").css("letter-spacing", "-.065em");
     $("#greeting").css("transition", "color .2s");
     $(".intro").css("line-height", "1.8");
@@ -20,7 +20,7 @@ $(document).ready(function () {
         $("body").removeClass("light-theme").addClass("dark-theme");
     });
 
-    // Task 2: hide(), show(), toggle()
+    // Task 2
     $("#hideStatus").click(function () {
         $("#statusAndFacts").hide();
     });
@@ -33,7 +33,7 @@ $(document).ready(function () {
         $("#statusAndFacts").toggle();
     });
 
-    // Task 3: fadeIn(), fadeOut(), fadeToggle()
+    // Task 3
     $("#fadeIn").click(function () {
         $(".gallery-image").fadeIn();
     });
@@ -46,7 +46,7 @@ $(document).ready(function () {
         $(".gallery-image").fadeToggle();
     });
 
-    // Task 4: slideUp(), slideDown(), slideToggle()
+    // Task 4
     $(".accordion-title").click(function () {
         var panel = $(this).attr("data-panel");
 
@@ -63,7 +63,7 @@ $(document).ready(function () {
         $(".accordion-content").slideToggle();
     });
 
-    // Task 5: append(), prepend(), remove()
+    // Task 5
     $("#addSkill").click(function () {
         var skill = $("#newSkill").val();
 
@@ -97,7 +97,7 @@ $(document).ready(function () {
         }
     });
 
-    // Task 6: attr()
+    // Task 6
     $("#changeLink").click(function () {
         $("#socialLink")
             .attr("href", "https://www.linkedin.com/")
@@ -112,13 +112,13 @@ $(document).ready(function () {
         $("#linkMessage").text("Link reset to Instagram.");
     });
 
-    // Task 7: val() and text()
+    // Task 7
     $("#visitorName, #visitorEmail").on("input", function () {
         $("#nameOutput").text($("#visitorName").val() || "—");
         $("#emailOutput").text($("#visitorEmail").val() || "—");
     });
 
-    // Task 8: animate()
+    // Task 8
     var animated = false;
 
     $("#animateSkills").click(function () {
